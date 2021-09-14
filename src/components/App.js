@@ -5,7 +5,7 @@ import ColorPalette from './Color-Palette'
 
 const App = () => {
   const [fillColors, setFillColors] = useState(Array(14).fill('white'))
-  const [currentColor, setCurrentColor] = useState('blue')
+  const [currentColor, setCurrentColor] = useState('white')
 
   const onFillColor = (i) => {
     let newFillColors = fillColors.slice(0)
@@ -15,10 +15,8 @@ const App = () => {
   
   return (
     <div className="app">
-      <div className="svg">
-        <Svg fillColors={fillColors} onFill={onFillColor} />
-      </div>
       <ColorPalette currentColor={currentColor} changeColor={setCurrentColor}/>
+      <Svg fillColors={fillColors} onFill={onFillColor} />
     </div>
   )
 }
