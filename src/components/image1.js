@@ -1,5 +1,5 @@
 import React from 'react'
-export default class Svg extends React.Component {
+export default class Svg1 extends React.Component {
     render () {
         return (
             <svg className="thisSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147.4 147.4">
