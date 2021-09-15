@@ -2,7 +2,7 @@ import React from 'react'
 export default class Svg3 extends React.Component {
     render () {
         return (
-            <svg className="thisSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147.4 147.4">
+            <svg className="thisSvg svg3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147.4 147.4">
                 
                 <g id="svg3" data-name="svg3">
                     <path  onClick={() => this.props.onFill(0)} fill={this.props.fillColors[0]} stroke="#000000" d="M113,37.29a.7.7,0,0,1-.12-.4A3,3,0,0,1,113,37.29Z"/>
